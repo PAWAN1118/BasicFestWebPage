@@ -1,0 +1,264 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color:#ffffff;
+ /* background: url('images/anits-logo.jpg'), #222;
+  background-size: cover;*/
+}
+
+header {
+  text-align: center;
+  background: #fff;
+  padding: 10px;
+  border-bottom: 2px solid #ccc;
+}
+
+/*.logo {
+  width: 90px;
+  height:200px;
+  vertical-align: top;
+}*/
+
+.banner {
+  width: 88%;
+  max-height: 100px;
+  margin-top: 0px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+nav {
+  background:rgb(41, 51, 63);
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 10px 20px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.layout {
+  display: flex;
+  margin: 20px;
+}
+
+aside {
+  width: 25%;
+  margin-right: 20px;
+}
+
+
+.hod-photo {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.vertical-marquee {
+  background: #222;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  height: 250px;
+  overflow: hidden;
+}
+
+main {
+  width: 75%;
+}
+
+.hod{
+width: 500px;
+height:auto;
+  margin-top: 0px;
+}
+.contentt {
+  background-color: aliceblue;
+   background-size: cover; 
+  padding: 5px;
+  justify-content: center;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+.content {
+  background: url('images/spons.png'),white;
+   background-size: cover; 
+  padding: 5px;
+  justify-content: center;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+h2 {
+  text-align: center;
+  margin-top: 40px;
+  color: #333;
+}
+
+.events-section {
+  max-height: 400px;
+  background: url('images/flash.webp'),white;
+  background-size: cover;
+  color: #ffffff;
+  padding: 40px 20px;
+  border-radius: 10px;
+} 
+.events {
+  max-height: 400px;
+
+} 
+/* .events-section {
+  background: linear-gradient(45deg,white,white);
+  background-size: cover;
+  padding: 40px 20px;
+}  */
+
+.event {
+  max-width: 500px;
+  max-height: 400px;
+}
+.event-box {
+  max-width: 500px;
+  max-height: 400px;
+  margin: 0 auto;
+  display: flex;
+  gap: 20px;
+  background-color: #004080;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.event-box img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.event-details {
+  flex: 1;
+}
+
+.sponsor-section {
+  max-height: 400px;
+  background-color: whitesmoke;
+  color: #333;
+  padding: 40px 20px;
+  position: relative;
+    border-radius: 10px;
+}
+
+.sponsor-box {
+  max-width: 900px;
+  max-height: 200px;
+  margin: 0 auto;
+  background: #ffffff;
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  align-items: center;
+}
+
+
+.sponsor-box img {
+  width: 200px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.sponsor-text {
+  flex: 1;
+}
+
+.sponsor-text button {
+  background-color: orange;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.sponsor-text button:hover {
+  background-color: darkorange;
+}
+.contact {
+  background:black;
+  color:white;
+  padding: 40px 20px;
+  position: relative;
+}
+.contact-text {
+  flex: 1;
+}
+
+    form {
+      background: #fff;
+      padding: 30px 35px;
+      border-radius: 15px;
+      width: 100%;
+      max-width: 500px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+      animation: fadeIn 1s ease;
+    }    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+         h2 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 25px;
+    }
+    label {
+      margin-top: 15px;
+      display: grid;
+      color: #444;
+      font-weight: 500;
+    }
+
+input, select, button {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid goldenrod;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #004080;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #003060;
+}
+
+.qr-section {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.qr-code {
+  width: 200px;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-top: 10px;
+}
