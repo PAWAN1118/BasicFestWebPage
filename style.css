@@ -96,7 +96,7 @@ height:auto;
   border-radius: 8px;
 }
 .content {
-  background: url('images/spons.png'),white;
+  background: url('spons.png'),white;
    background-size: cover; 
   padding: 5px;
   justify-content: center;
@@ -111,7 +111,7 @@ h2 {
 
 .events-section {
   max-height: 400px;
-  background: url('images/flash.webp'),white;
+  background: url('flash.webp'),white;
   background-size: cover;
   color: #ffffff;
   padding: 40px 20px;
